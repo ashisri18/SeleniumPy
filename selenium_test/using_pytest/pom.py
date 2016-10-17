@@ -14,3 +14,6 @@ class POM:
     GMAIL_SIGNIN_BUTTON = (By.ID, "signIn")
     ACCOUNT_LOGEDIN = (By.CLASS_NAME, "loged-in")
     CLOSE_BUTTON = (By.CLASS_NAME, "close")
+
+    SPORTS_SECTION = (By.XPATH, "//ul[@id='mainTopNav']/li[@class='nav-sports']")
+    JERSEYS = (By.XPATH, "//div[@class='dropdown-container row']//a[text()='Jerseys']")

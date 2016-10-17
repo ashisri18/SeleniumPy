@@ -6,7 +6,9 @@ import os
 import sys
 from datetime import datetime
 
+
 class BaseLib:
+    driver = None
     d = os.path.dirname(os.getcwd())
     print(d)
     now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
@@ -16,12 +18,13 @@ class BaseLib:
 
     @pytest.fixture()
     def resource(self):
-        chromeDriver = "E:\CBT_Automation\Python_Workspace\SeleniumPy\selenium_test\chromedriver.exe"
-        self.driver = webdriver.Chrome(chromeDriver)
+        logging.info("************************************** Execution Starts ************************************************************")
+        chrome_driver_path = "E:\CBT_Automation\Python_Workspace\SeleniumPy\selenium_test\chromedriver.exe"
+        self.driver = webdriver.Chrome(chrome_driver_path)
         logging.info('Chrome browser launched.')
         # self.driver = webdriver.Firefox()
         # logging.info("Firefox browser launched")
-        self.driver.get("https://www.jabong.com")
+        self.driver.get("http://www.jabong.com")
 #        self.driver.get("https://ariel.auvenir.com/checkToken?token=IkMraHClAMZU2hNgsn1jKwrNr8JKpLSK&email=auvclient01@gmail.com")
         logging.info('Jabong Application Launched.')
         self.driver.maximize_window()

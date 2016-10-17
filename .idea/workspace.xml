@@ -23,8 +23,8 @@
       <file leaf-file-name="base_lib.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/base_lib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+            <state relative-caret-position="429">
+              <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -35,8 +35,8 @@
       <file leaf-file-name="test_scripts.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/test_scripts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -47,7 +47,7 @@
       <file leaf-file-name="sample.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/sample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
+            <state relative-caret-position="537">
               <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
               <folding />
             </state>
@@ -57,8 +57,8 @@
       <file leaf-file-name="sample1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/sample1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="85">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -67,8 +67,8 @@
       <file leaf-file-name="pom.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/pom.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="306">
+              <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -94,9 +94,9 @@
         <option value="$PROJECT_DIR$/selenium_test/pytest/scripts.py" />
         <option value="$PROJECT_DIR$/selenium_test/pytest/base_lib.py" />
         <option value="$PROJECT_DIR$/selenium_test/using_pytest/scripts.py" />
-        <option value="$PROJECT_DIR$/selenium_test/using_pytest/pom.py" />
         <option value="$PROJECT_DIR$/selenium_test/using_pytest/sample.py" />
         <option value="$PROJECT_DIR$/selenium_test/using_pytest/sample1.py" />
+        <option value="$PROJECT_DIR$/selenium_test/using_pytest/pom.py" />
         <option value="$PROJECT_DIR$/selenium_test/using_pytest/base_lib.py" />
         <option value="$PROJECT_DIR$/selenium_test/using_pytest/test_scripts.py" />
       </list>
@@ -134,6 +134,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -174,9 +175,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SeleniumPy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SeleniumPy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,7 +210,7 @@
       <recent name="E:\CBT_Automation\Python_Workspace\SeleniumPy\selenium1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_scripts.py (1)">
+  <component name="RunManager" selected="Python tests.py.test --html=report.html in test_scripts.py (1)">
     <configuration default="false" name="py.test in scripts.py" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,30 +226,6 @@
       <option name="SCRIPT_NAME" value="E:\CBT_Automation\Python_Workspace\SeleniumPy\selenium_test\using_pytest\test_scripts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in base_lib.py" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="SeleniumPy" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/selenium_test/using_pytest/base_lib.py" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="py.test in sample.py" type="tests" factoryName="py.test" temporary="true">
@@ -282,7 +276,7 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="py.test in test_scripts.py (1)" type="tests" factoryName="py.test" temporary="true">
+    <configuration default="false" name="py.test --html=report.html in test_scripts.py (1)" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -300,6 +294,30 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="testToRun" value="$PROJECT_DIR$/selenium_test/using_pytest/test_scripts.py" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in using_pytest" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SeleniumPy" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/selenium_test/using_pytest" />
       <option name="keywords" value="" />
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
@@ -440,7 +458,7 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="py.test in test_scripts.py" type="tests" factoryName="py.test">
+    <configuration default="false" name="py.test --html=report.html in test_scripts.py" type="tests" factoryName="py.test">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -465,20 +483,20 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_scripts.py" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test --html=report.html in test_scripts.py" />
       <item index="1" class="java.lang.String" itemvalue="Python.py.test in scripts.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in base_lib.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in sample.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in sample1.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in test_scripts.py (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in sample.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in sample1.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test --html=report.html in test_scripts.py (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in using_pytest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_scripts.py (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test --html=report.html in test_scripts.py (1)" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in sample1.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in sample.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python.py.test in scripts.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in base_lib.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in using_pytest" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in sample.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python.py.test in scripts.py" />
       </list>
     </recent_temporary>
   </component>
@@ -496,35 +514,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_scripts_py_(1) - 2016.10.14 at 17h 26m 30s.xml">
-      <configuration name="py.test in test_scripts.py (1)" configurationId="tests" />
+    <history-entry file="py_test_--html=report_html_in_test_scripts_py - 2016.10.17 at 18h 39m 49s.xml">
+      <configuration name="py.test --html=report.html in test_scripts.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_scripts_py_(1) - 2016.10.14 at 17h 31m 29s.xml">
-      <configuration name="py.test in test_scripts.py (1)" configurationId="tests" />
+    <history-entry file="py_test_--html=report_html_in_test_scripts_py_(1) - 2016.10.17 at 16h 27m 00s.xml">
+      <configuration name="py.test --html=report.html in test_scripts.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_scripts_py_(1) - 2016.10.14 at 17h 35m 42s.xml">
-      <configuration name="py.test in test_scripts.py (1)" configurationId="tests" />
+    <history-entry file="py_test_--html=report_html_in_test_scripts_py_(1) - 2016.10.17 at 17h 16m 50s.xml">
+      <configuration name="py.test --html=report.html in test_scripts.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_scripts_py_(1) - 2016.10.14 at 17h 41m 08s.xml">
-      <configuration name="py.test in test_scripts.py (1)" configurationId="tests" />
+    <history-entry file="py_test_--html=report_html_in_test_scripts_py_(1) - 2016.10.17 at 17h 25m 34s.xml">
+      <configuration name="py.test --html=report.html in test_scripts.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_scripts_py_(1) - 2016.10.14 at 17h 58m 13s.xml">
-      <configuration name="py.test in test_scripts.py (1)" configurationId="tests" />
+    <history-entry file="py_test_--html=report_html_in_test_scripts_py_(1) - 2016.10.17 at 18h 10m 21s.xml">
+      <configuration name="py.test --html=report.html in test_scripts.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_scripts_py_(1) - 2016.10.14 at 18h 01m 53s.xml">
-      <configuration name="py.test in test_scripts.py (1)" configurationId="tests" />
+    <history-entry file="py_test_--html=report_html_in_test_scripts_py_(1) - 2016.10.17 at 18h 11m 52s.xml">
+      <configuration name="py.test --html=report.html in test_scripts.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_scripts_py_(1) - 2016.10.14 at 18h 06m 45s.xml">
-      <configuration name="py.test in test_scripts.py (1)" configurationId="tests" />
+    <history-entry file="py_test_--html=report_html_in_test_scripts_py_(1) - 2016.10.17 at 18h 14m 34s.xml">
+      <configuration name="py.test --html=report.html in test_scripts.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_scripts_py_(1) - 2016.10.14 at 18h 13m 23s.xml">
-      <configuration name="py.test in test_scripts.py (1)" configurationId="tests" />
+    <history-entry file="py_test_--html=report_html_in_test_scripts_py_(1) - 2016.10.17 at 18h 19m 06s.xml">
+      <configuration name="py.test --html=report.html in test_scripts.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_scripts_py_(1) - 2016.10.14 at 18h 23m 57s.xml">
-      <configuration name="py.test in test_scripts.py (1)" configurationId="tests" />
+    <history-entry file="py_test_--html=report_html_in_test_scripts_py_(1) - 2016.10.17 at 18h 30m 47s.xml">
+      <configuration name="py.test --html=report.html in test_scripts.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_scripts_py_(1) - 2016.10.17 at 10h 55m 55s.xml">
-      <configuration name="py.test in test_scripts.py (1)" configurationId="tests" />
+    <history-entry file="py_test_--html=report_html_in_test_scripts_py_(1) - 2016.10.17 at 18h 42m 32s.xml">
+      <configuration name="py.test --html=report.html in test_scripts.py (1)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -536,7 +554,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26136363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2353896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -568,6 +586,94 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/base_lib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/test_scripts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/sample1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/pom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/base_lib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/test_scripts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/sample1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/pom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/base_lib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -703,9 +809,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_test/report.html" />
+    <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/pom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/sample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
+        <state relative-caret-position="537">
           <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
           <folding />
         </state>
@@ -713,24 +828,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/sample1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/pom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/base_lib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="429">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -739,8 +846,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium_test/using_pytest/test_scripts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
