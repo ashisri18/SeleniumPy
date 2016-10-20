@@ -1,0 +1,32 @@
+INFO:root:************************************** Execution Starts ************************************************************
+INFO:root:Chrome browser launched.
+INFO:root:Jabong Application Launched.
+INFO:root:windows maximized
+INFO:root:Now in Men Script
+INFO:root:Inside test_buy_jersey
+INFO:root:Clicked on Sports section
+INFO:root:Clicked on Jersey
+INFO:root:Driver quited
+INFO:root:************************************** Execution Starts ************************************************************
+INFO:root:Chrome browser launched.
+INFO:root:Jabong Application Launched.
+INFO:root:windows maximized
+INFO:root:Inside test_sign_in
+INFO:root:Clicked on Signin link
+INFO:root:Login Email Id entered.
+INFO:root:Login Password entered.
+INFO:root:Clicked on Signin button for login Jabong.
+ERROR:root:Oops....We have entered incorrect login Email Id or Password.
+INFO:root:Error message verified.
+INFO:root:Trying to login via Google account.
+INFO:root:Gmail login Id entered.
+INFO:root:Gmail login password entered.
+INFO:root:Clicked on Gmail Signin button.
+INFO:root:We have successfully logged in Jabong application.
+INFO:root:*****Congratulations we have successfully passed this Login to Jabong script.*****
+INFO:root:Driver quited
+INFO:root:Inside test suite
+INFO:root:Inside test_sign_in
+INFO:root:Now in Men Script
+INFO:root:Inside test_buy_jersey
+ERROR:root:Exception raised in method - test_buy_jersey

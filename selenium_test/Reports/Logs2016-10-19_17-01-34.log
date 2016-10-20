@@ -1,0 +1,33 @@
+INFO:root:************************************** Execution Starts ************************************************************
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52702/session {"desiredCapabilities": {"browserName": "chrome", "chromeOptions": {"extensions": [], "args": []}, "version": "", "javascriptEnabled": true, "platform": "ANY"}, "requiredCapabilities": {}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Chrome browser launched.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52702/session/07017af9a9d4fef91217a3bc371913d4/url {"url": "http://www.jabong.com", "sessionId": "07017af9a9d4fef91217a3bc371913d4"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Jabong Application Launched.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52702/session/07017af9a9d4fef91217a3bc371913d4/window/current/maximize {"sessionId": "07017af9a9d4fef91217a3bc371913d4", "windowHandle": "current"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:windows maximized
+INFO:root:Now in Men Script
+INFO:root:Inside test_buy_jersey
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52702/session/07017af9a9d4fef91217a3bc371913d4/element {"using": "xpath", "sessionId": "07017af9a9d4fef91217a3bc371913d4", "value": "//ul[@id='mainTopNav']/li[@class='nav-sports']"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52702/session/07017af9a9d4fef91217a3bc371913d4/moveto {"sessionId": "07017af9a9d4fef91217a3bc371913d4", "element": "0.3492743252141832-1"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Clicked on Sports section
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52702/session/07017af9a9d4fef91217a3bc371913d4/element {"using": "xpath", "sessionId": "07017af9a9d4fef91217a3bc371913d4", "value": "//div[@class='dropdown-container row']//a[text()='Jerseys']"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52702/session/07017af9a9d4fef91217a3bc371913d4/element/0.3492743252141832-2/click {"id": "0.3492743252141832-2", "sessionId": "07017af9a9d4fef91217a3bc371913d4"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Clicked on Jersey
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:52702/session/07017af9a9d4fef91217a3bc371913d4 {"sessionId": "07017af9a9d4fef91217a3bc371913d4"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Driver quited
+INFO:root:************************************** Execution Starts ************************************************************
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52814/session {"desiredCapabilities": {"browserName": "chrome", "chromeOptions": {"extensions": [], "args": []}, "version": "", "javascriptEnabled": true, "platform": "ANY"}, "requiredCapabilities": {}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Chrome browser launched.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52814/session/8e0cab1b2e0dcd9c0f44da8c70cba629/url {"url": "http://www.jabong.com", "sessionId": "8e0cab1b2e0dcd9c0f44da8c70cba629"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Jabong Application Launched.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52814/session/8e0cab1b2e0dcd9c0f44da8c70cba629/window/current/maximize {"sessionId": "8e0cab1b2e0dcd9c0f44da8c70cba629", "windowHandle": "current"}

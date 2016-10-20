@@ -1,0 +1,107 @@
+INFO:root:************************************** Execution Starts ************************************************************
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51579/session {"requiredCapabilities": {}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "chromeOptions": {"extensions": [], "args": []}, "version": "", "javascriptEnabled": true}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Chrome browser launched.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51579/session/a24a5f5a4f2ff266d7cdc833253665df/url {"url": "http://www.jabong.com", "sessionId": "a24a5f5a4f2ff266d7cdc833253665df"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Jabong Application Launched.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51579/session/a24a5f5a4f2ff266d7cdc833253665df/window/current/maximize {"windowHandle": "current", "sessionId": "a24a5f5a4f2ff266d7cdc833253665df"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:windows maximized
+INFO:root:Now in Men Script
+INFO:root:Inside test_buy_jersey
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51579/session/a24a5f5a4f2ff266d7cdc833253665df/element {"value": "//ul[@id='mainTopNav']/li[@class='nav-sports']", "using": "xpath", "sessionId": "a24a5f5a4f2ff266d7cdc833253665df"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51579/session/a24a5f5a4f2ff266d7cdc833253665df/moveto {"sessionId": "a24a5f5a4f2ff266d7cdc833253665df", "element": "0.4571988123686541-1"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Clicked on Sports section
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51579/session/a24a5f5a4f2ff266d7cdc833253665df/element {"value": "//div[@class='dropdown-container row']//a[text()='Jerseys']", "using": "xpath", "sessionId": "a24a5f5a4f2ff266d7cdc833253665df"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51579/session/a24a5f5a4f2ff266d7cdc833253665df/element/0.4571988123686541-2/click {"id": "0.4571988123686541-2", "sessionId": "a24a5f5a4f2ff266d7cdc833253665df"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Clicked on Jersey
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:51579/session/a24a5f5a4f2ff266d7cdc833253665df {"sessionId": "a24a5f5a4f2ff266d7cdc833253665df"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Driver quited
+INFO:root:************************************** Execution Starts ************************************************************
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session {"requiredCapabilities": {}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "chromeOptions": {"extensions": [], "args": []}, "version": "", "javascriptEnabled": true}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Chrome browser launched.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/url {"url": "http://www.jabong.com", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Jabong Application Launched.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/window/current/maximize {"windowHandle": "current", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:windows maximized
+INFO:root:Inside test_sign_in
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element {"value": "//a[text()='Sign In']", "using": "xpath", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element/0.4442697413167358-1/click {"id": "0.4442697413167358-1", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Clicked on Signin link
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element {"value": "login-email", "using": "id", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element/0.4442697413167358-2/value {"value": ["a", "s", "h", "i", "t", "e", "s", "t", "m", "a", "i", "l", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "0.4442697413167358-2", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Login Email Id entered.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element {"value": "password", "using": "name", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element/0.4442697413167358-3/value {"value": ["r", "e", "s", "e", "a", "r", "c", "h", "e", "r"], "id": "0.4442697413167358-3", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Login Password entered.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element {"value": "//button[text()='SIGN IN']", "using": "xpath", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element/0.4442697413167358-4/click {"id": "0.4442697413167358-4", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Clicked on Signin button for login Jabong.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element {"value": "//span[contains(text(),'Incorrect username or password.')]", "using": "xpath", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element/0.4442697413167358-5/displayed {"id": "0.4442697413167358-5", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+ERROR:root:Oops....We have entered incorrect login Email Id or Password.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element {"value": "//span[contains(text(),'Incorrect username or password.')]", "using": "xpath", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element/0.4442697413167358-5/text {"id": "0.4442697413167358-5", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Error message verified.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element {"value": "//a[@class='signup-g']//span[text()='sign in with google']", "using": "xpath", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element/0.4442697413167358-6/click {"id": "0.4442697413167358-6", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Trying to login via Google account.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element {"value": "Email", "using": "id", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element/0.31653910834937204-1/value {"value": ["a", "s", "h", "i", "t", "e", "s", "t", "m", "a", "i", "l", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "0.31653910834937204-1", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element {"value": "next", "using": "id", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element/0.31653910834937204-2/click {"id": "0.31653910834937204-2", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Gmail login Id entered.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element {"value": "Passwd", "using": "id", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element/0.31653910834937204-3/value {"value": ["r", "e", "s", "e", "a", "r", "c", "h", "e", "r"], "id": "0.31653910834937204-3", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Gmail login password entered.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element {"value": "signIn", "using": "id", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element/0.31653910834937204-4/click {"id": "0.31653910834937204-4", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Clicked on Gmail Signin button.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element {"value": "loged-in", "using": "class name", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element/0.27481069890316-1/displayed {"id": "0.27481069890316-1", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:We have successfully logged in Jabong application.
+INFO:root:*****Congratulations we have successfully passed this Login to Jabong script.*****
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0 {"sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Driver quited
+INFO:root:Inside test suite
+INFO:root:Inside test_sign_in
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51713/session/ba9dfeaac42fb63680d8eeb1c83663c0/element {"value": "//a[text()='Sign In']", "using": "xpath", "sessionId": "ba9dfeaac42fb63680d8eeb1c83663c0"}
+INFO:root:Now in Men Script
+INFO:root:Inside test_buy_jersey
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51579/session/a24a5f5a4f2ff266d7cdc833253665df/element {"value": "//ul[@id='mainTopNav']/li[@class='nav-sports']", "using": "xpath", "sessionId": "a24a5f5a4f2ff266d7cdc833253665df"}
+ERROR:root:Exception raised in method - test_buy_jersey
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:51579/session/a24a5f5a4f2ff266d7cdc833253665df/screenshot {"sessionId": "a24a5f5a4f2ff266d7cdc833253665df"}
